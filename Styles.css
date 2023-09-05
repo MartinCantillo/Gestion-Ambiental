@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container {
+    max-width: 13000px;
+    margin: 0% auto;
+    padding: 100px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 200px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.aside-container {
+    position: relative;
+    float: right;
+    width: 30%;
+    margin-top: -96px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    top: -650px;
+}
+
+aside {
+    background-color: rgba(230, 238, 238, 0.911);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos para los artículos */
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    margin-right: auto; /* Alinea el artículo a la izquierda */
+}
+
+/* Estilos para los párrafos dentro de los artículos */
+article p {
+    font-size: 14px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+aside img {
+    max-width: 100%; /* Ajusta la anchura máxima de la imagen */
+    height: auto; /* Ajusta la altura automáticamente en función de la anchura */
+    display: block; /* Elimina cualquier espacio vacío debajo de la imagen */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
